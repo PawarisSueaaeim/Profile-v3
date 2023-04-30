@@ -39,6 +39,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn" id="skills">
                         <h2>Skills</h2>
+                        <p>This is the skill that I am currently using and have used before, and I feel that it is easy for me to learn.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={iconHtml} alt="html" />
@@ -70,11 +71,11 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={iconNestJs} alt="NestJS" />
-                                <h5>VueJS</h5>
+                                <h5>NestJS</h5>
                             </div>
                             <div className="item">
                                 <img src={iconVueJs} alt="VueJS" />
-                                <h5>NestJS</h5>
+                                <h5>VueJS</h5>
                             </div>
                             
                         </Carousel>
