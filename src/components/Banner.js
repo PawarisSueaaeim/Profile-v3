@@ -5,6 +5,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import resume from '../assets/resume/resume.pdf'
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -51,7 +52,7 @@ export const Banner = () => {
 
   const renderDownload = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = '/resume.pdf';
+    downloadLink.href = 'http://localhost:3000/assets/resume/resume.pdf';
     downloadLink.download = 'resume.pdf';
     document.body.appendChild(downloadLink);
     downloadLink.click();
@@ -69,7 +70,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Pleum`} <br/><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Engineer", "Software Tester" ]'><span className="wrap">{text}</span></span></h1>
                   <p>My fullname is Pawaris Rabeab,I graduated from Chiang Mai University, majoring in Computer Engineering. Currently, I work primarily in programming and specifically in writing web applications.</p>
-                  <button onClick={window.open('../assets/resume/resume.pdf')}>Download Resume <ArrowRightCircle size={25} /></button>
+                  <button onClick={renderDownload}>Download Resume <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

@@ -7,6 +7,9 @@ import iconJS from "../assets/img/icons8-javascript.svg"
 import iconTS from "../assets/img/icons8-typescript.svg"
 import iconReact from "../assets/img/icons8-react-native.svg"
 import iconPython from "../assets/img/icons8-python.svg"
+import iconVueJs from "../assets/img/icons8-vue-js.svg"
+import iconNestJs from "../assets/img/icons8-nestjs.svg"
+import iconJest from "../assets/img/jest-snapshot-svgrepo-com.svg"
 
 export const Skills = () => {
   const responsive = {
@@ -31,10 +34,10 @@ export const Skills = () => {
 
   return (
     <section className="skill" >
-        <div className="container" id="skills">
+        <div className="container" >
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="skill-bx wow zoomIn" id="skills">
                         <h2>Skills</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
@@ -59,8 +62,21 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={iconReact} alt="typescript" />
-                                <h5>React</h5>
+                                <h5>ReactJS</h5>
                             </div>
+                            <div className="item">
+                            <img src={iconJest} alt='Jest'/>
+                                <h5>Jest</h5>
+                            </div>
+                            <div className="item">
+                                <img src={iconNestJs} alt="NestJS" />
+                                <h5>VueJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={iconVueJs} alt="VueJS" />
+                                <h5>NestJS</h5>
+                            </div>
+                            
                         </Carousel>
                     </div>
                 </div>
