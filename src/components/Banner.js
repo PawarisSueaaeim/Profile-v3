@@ -69,7 +69,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Pleum`} <br/><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Engineer", "Software Tester" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>My fullname is Pawaris Rabeab,I graduated from Chiang Mai University, majoring in Computer Engineering. Currently, I work primarily in programming and specifically in writing web applications.</p>
+                  <p>My name is Pawaris Rabeab. I graduated with a bachelor's degree from Chiang Mai University, majoring in Computer Engineering. I currently work as a frontend engineer.</p>
                   <button onClick={renderDownload}>Download Resume <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
