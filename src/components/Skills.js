@@ -30,8 +30,8 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
-        <div className="container">
+    <section className="skill" >
+        <div className="container" id="skills">
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
@@ -11,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "React Web Developer", "Software Tester" ];
+  const toRotate = [ "Frontend Engineer", "Software Tester" ];
   const period = 2000;
 
   useEffect(() => {
@@ -20,6 +21,7 @@ export const Banner = () => {
     }, delta);
 
     return () => { clearInterval(ticker) };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text])
 
   const tick = () => {
@@ -47,6 +49,15 @@ export const Banner = () => {
     }
   }
 
+  const renderDownload = () => {
+    const downloadLink = document.createElement('a');
+    downloadLink.href = '/resume.pdf';
+    downloadLink.download = 'resume.pdf';
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -56,9 +67,9 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Pleum`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "React Web Developer", "Software Tester" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Pleum`} <br/><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Engineer", "Software Tester" ]'><span className="wrap">{text}</span></span></h1>
                   <p>My fullname is Pawaris Rabeab,I graduated from Chiang Mai University, majoring in Computer Engineering. Currently, I work primarily in programming and specifically in writing web applications.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={window.open('../assets/resume/resume.pdf')}>Download Resume <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
