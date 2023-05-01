@@ -1,7 +1,3 @@
-import projImg1 from '../../assets/img/project-img1.png'
-import projImg2 from '../../assets/img/project-img2.png'
-import projImg3 from '../../assets/img/project-img3.png'
-
 export const Jobs = [
   {
     title: "System Engineer",
@@ -19,7 +15,7 @@ export const University = [
   {
     title: "Somboon Advance Technology Co., Ltd (SAT)",
     description: "System Engineer",
-    imgUrl: "https://www.satpcl.co.th/themes/default/assets/static/images/logo.png",
+    imgUrl: "https://s3-symbol-logo.tradingview.com/somboon-advance-technology--600.png",
   },
   {
     title: "Mungmee Ecommerce Co., Ltd",
@@ -32,7 +28,7 @@ export const Training = [
   {
     title: "Somboon Advance Technology Co., Ltd (SAT)",
     description: "System Engineer",
-    imgUrl: "https://www.satpcl.co.th/themes/default/assets/static/images/logo.png",
+    imgUrl: "https://s3-symbol-logo.tradingview.com/somboon-advance-technology--600.png",
   },
   {
     title: "Mungmee Ecommerce Co., Ltd",
