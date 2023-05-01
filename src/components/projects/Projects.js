@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "../ProjectCard";
+import { ProjectCard } from "./ProjectCard";
 import { Jobs, University, Training } from "./data";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
 import "animate.css";
@@ -26,13 +26,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Jobs</Nav.Link>
+                        <Nav.Link eventKey="jobs">Jobs</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">University</Nav.Link>
+                        <Nav.Link eventKey="university">University</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Training</Nav.Link>
+                        <Nav.Link eventKey="training">Training</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -41,23 +41,21 @@ export const Projects = () => {
                         isVisible ? "animate__animated animate__slideInUp" : ""
                       }
                     >
-                      <Tab.Pane eventKey="first">
+                      <Tab.Pane eventKey="jobs">
                         <Row>
                           {Jobs.map((project, index) => {
-                            return (
-                              <ProjectCard key={index} {...project} />
-                            );
+                            return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="second">
+                      <Tab.Pane eventKey="university">
                         <Row>
                           {University.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="third">
+                      <Tab.Pane eventKey="training">
                         <Row>
                           {Training.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
