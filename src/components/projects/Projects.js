@@ -19,7 +19,7 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects & Work experience</h2>
-                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                  <Tab.Container id="projects-tabs" defaultActiveKey="jobs">
                     <Nav
                       variant="pills"
                       className="nav-pills mb-5 justify-content-center align-items-center"
