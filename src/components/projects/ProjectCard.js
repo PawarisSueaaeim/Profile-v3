@@ -13,9 +13,6 @@ export const ProjectCard = ({ imgUrl,company, position,description }) => {
           </div>
         </div>
       </Col>
-      <Col size={12} sm={6} md={8}>
-        <p>{description}</p>
-      </Col>
     </React.Fragment>
   );
 };
