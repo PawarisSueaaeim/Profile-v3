@@ -10,7 +10,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center mt-5">
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+            <img className="logo" src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end mt-5">
             <div className="social-icon">
