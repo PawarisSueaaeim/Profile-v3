@@ -17,25 +17,25 @@ export const University = [
   {
     imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
     company: "Classroom Attendence Management System",
-    position: "Final Project 4 years",
+    position: "Final Project - 4 years student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
     imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
     company: "Smart Tent",
-    position: "Hard ware design project 4 years",
+    position: "Hard ware design project - 4 years student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
     imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
     company: "Pet House UX/UI design",
-    position: "Survay project 3 years",
+    position: "Survay project - 3 years student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
     imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
     company: "Network Design Project",
-    position: "Network project 3 years",
+    position: "Network project - 3 years student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
