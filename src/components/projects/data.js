@@ -66,18 +66,5 @@ export const University = [
   }
 ];
 
-export const Training = [
-  {
-    imgUrl: "https://s3-symbol-logo.tradingview.com/somboon-advance-technology--600.png",
-    company: "Somboon Advance Technology Co., Ltd (SAT)",
-    position: "System Engineer",
-    description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
-  },
-  {
-    imgUrl: "https://s3-symbol-logo.tradingview.com/somboon-advance-technology--600.png",
-    company: "Somboon Advance Technology Co., Ltd (SAT)",
-    position: "System Engineer",
-    description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
-  }
-];
+export const Training = [];
 
