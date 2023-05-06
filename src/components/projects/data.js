@@ -1,3 +1,5 @@
+import logoEng from '../../assets/img/logo-eng.jpg'
+
 export const Jobs = [
   {
     imgUrl: "https://s3-symbol-logo.tradingview.com/somboon-advance-technology--600.png",
@@ -15,49 +17,49 @@ export const Jobs = [
 
 export const University = [
   {
-    imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
+    imgUrl: logoEng,
     company: "Classroom Attendence Management System",
     position: "Final Project - 4 years student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
-    imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
+    imgUrl: logoEng,
     company: "Smart Tent",
     position: "Hard ware design project - 4 years student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
-    imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
+    imgUrl: logoEng,
     company: "Pet House UX/UI design",
     position: "Survay project - 3 years student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
-    imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
+    imgUrl: logoEng,
     company: "Network Design Project",
     position: "Network project - 3 years student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
-    imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
+    imgUrl: logoEng,
     company: "Werewolf Online",
     position: "Network security project - 2 years student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
-    imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
+    imgUrl: logoEng,
     company: "Traffic Game Logic Gate",
     position: "Logic gate project - 2 years student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
-    imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
+    imgUrl: logoEng,
     company: "Automatic water dispenser",
     position: "C++ project - 1 year student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
   },
   {
-    imgUrl: "https://me.eng.cmu.ac.th/img/logo-me.jpg",
+    imgUrl: logoEng,
     company: "GoGo Broad Robot",
     position: "Frist project - 1 year student",
     description: "Responsibility for Admin & Support, Maintain and monitoring IT regulation regarding IT security, IT vendor management for project and maintenance. Responsibility for Network, Manage plan and tasks of network and IT infrastructure team"
