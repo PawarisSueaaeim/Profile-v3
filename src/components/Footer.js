@@ -18,7 +18,7 @@ export const Footer = () => {
               <a href="https://web.facebook.com/profile.php?id=100006235390790"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://www.instagram.com/pawaris_10k/"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>v3 2023 Pawaris Rabeab</p>
           </Col>
         </Row>
       </Container>
