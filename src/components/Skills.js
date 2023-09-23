@@ -8,13 +8,15 @@ import iconTS from "../assets/img/icons8-typescript.svg";
 import iconReact from "../assets/img/icons8-react-native.svg";
 import iconPython from "../assets/img/icons8-python.svg";
 import iconVueJs from "../assets/img/icons8-vue-js.svg";
-import iconNestJs from "../assets/img/icons8-nestjs.svg";
 import iconJest from "../assets/img/jest-snapshot-svgrepo-com.svg";
+import iconNextJS from "../assets/img/icons8-next.js.svg";
+import iconGit from "../assets/img/icons8-git.svg";
+import iconGithub from "../assets/img/icons8-github.svg";
+import iconPostman from "../assets/img/icons8-postman.png";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -76,12 +78,24 @@ export const Skills = () => {
                   <h5>Jest</h5>
                 </div>
                 <div className="item">
-                  <img src={iconNestJs} alt="NestJS" />
-                  <h5>NestJS</h5>
-                </div>
-                <div className="item">
                   <img src={iconVueJs} alt="VueJS" />
                   <h5>VueJS</h5>
+                </div>
+                <div className="item">
+                  <img src={iconNextJS} alt="VueJS" />
+                  <h5>NextJS</h5>
+                </div>
+                <div className="item">
+                  <img src={iconGithub} alt="VueJS" />
+                  <h5>GitHub</h5>
+                </div>
+                <div className="item">
+                  <img src={iconGit} alt="VueJS" />
+                  <h5>Git</h5>
+                </div>
+                <div className="item">
+                  <img src={iconPostman} alt="VueJS" />
+                  <h5>Postman</h5>
                 </div>
               </Carousel>
             </div>

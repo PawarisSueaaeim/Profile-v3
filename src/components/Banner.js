@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Frontend Engineer", "Software Tester"];
+  const toRotate = ["Frontend Engineer"];
   const period = 2000;
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export const Banner = () => {
 
   const renderDownloadResume = () => {
     const downloadResume = document.createElement("a");
-    downloadResume.href = "https://drive.google.com/file/d/1oj2ED_bTxLKHVpRVvoykr6-6E7aa5QpW/view?usp=share_link";
+    downloadResume.href = "https://drive.google.com/file/d/1XqMkskrG0ADICbAKtzMh8R4vd-EHZVdC/view?usp=sharing";
     downloadResume.target = "_blank";
     document.body.appendChild(downloadResume);
     downloadResume.click();
@@ -80,7 +80,6 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Frontend Engineer", "Software Tester" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
